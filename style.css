@@ -19,12 +19,20 @@ a {
   margin: 0 auto;
 }
 .heading {
+  padding-bottom: 8px;
   font-size: 32px;
   color: #000000;
   padding-top: 90px;
   text-align: center;
 }
+.border-line {
+  margin: 0 auto;
+  width: 70px;
+  border-bottom: 3px solid #EC715F;
+
+}
 .heading-text {
+
   text-align: center;
   padding: 30px 0;
   font-size: 16px;
@@ -393,6 +401,21 @@ footer p {
   width: 100%;
   height: auto;
 }
+.strengh-left {
+  display: block;
+}
+.strength-center {
+  margin: 0 auto;
+  display: block;
+}
+.strength-right {
+  padding-top: 30px;
+  margin: 0 auto;
+  display: block;
+}
+.strength-text {
+  text-align: left;
+}
 .profile {
   height: 1050px;
 }
@@ -400,14 +423,18 @@ footer p {
   width: 90%;
   height: auto;
 }
+.profile-left {
+  text-align: center;
+}
 .profile-right {
+  float: none;
   margin: 0 auto;
 }
 .myname {
   text-align: center;
 }
 .myname-text {
-  text-align: center;
+  
 }
 
 p {
@@ -446,19 +473,26 @@ p {
 
 }
 .sns {
-  padding-right: 50px;
+  padding-right: 100px;
   text-align: center;
-}
+  }
 .social2 {
-  padding-right: 30px;
+  padding-right: 80px;
   text-align: center;
+  margin: 0 auto;
 }
 .heading-text {
+  margin: 0 auto;
   text-align: center;
 }
 .contact-left {
+  padding-left: 100px;
+  margin: 0 auto;
   height: 150px;
   float: none;
+  }
+  .contact-right {
+    margin: 0 auto;
   }
   footer {
     height: 60px;
